@@ -1,8 +1,8 @@
-a = int(input('first Number:'))
-b = int(input('Second Number:'))
+a = int(input("First Number:"))
+b = int(input("Second Number:"))
 
-def add(a,b):
+# add function
+def sum(a,b):
 	return a+b
 
-print('Summation is:',add(a,b))
-
+print('Sum:',sum(a,b))
