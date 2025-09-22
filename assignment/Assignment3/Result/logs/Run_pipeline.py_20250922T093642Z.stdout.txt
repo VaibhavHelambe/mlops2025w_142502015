@@ -1,0 +1,5 @@
+[0m[0m[0m[0m[0m[0m[0m[0m[resnet50] Epoch 1/2  train_loss=1.6858 train_acc=0.250  val_acc=0.333
+[0m[0m[0m[0m[0m[0m[0m[0m[resnet50] Epoch 2/2  train_loss=1.1744 train_acc=0.350  val_acc=0.333
+[0m[0m[0m[0mTest accuracy: 0.3333333333333333
+Results written to: Result\pipeline_result_20250922T093642Z.json
+[0m

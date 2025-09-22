@@ -1,0 +1,66 @@
+[
+  {
+    "params": {
+      "learning_rate": 0.1,
+      "optimizer": "adam",
+      "momentum": 0.5
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.1,
+      "optimizer": "adam",
+      "momentum": 0.9
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.1,
+      "optimizer": "sgd",
+      "momentum": 0.5
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.1,
+      "optimizer": "sgd",
+      "momentum": 0.9
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "momentum": 0.5
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "momentum": 0.9
+    },
+    "val_acc": 0.3333333333333333
+  },
+  {
+    "params": {
+      "learning_rate": 0.01,
+      "optimizer": "sgd",
+      "momentum": 0.5
+    },
+    "val_acc": 0.5555555555555556
+  },
+  {
+    "params": {
+      "learning_rate": 0.01,
+      "optimizer": "sgd",
+      "momentum": 0.9
+    },
+    "val_acc": 0.3888888888888889
+  }
+]
