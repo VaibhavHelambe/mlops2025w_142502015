@@ -1,0 +1,28 @@
+{
+  "grid": {
+    "learning_rate": [
+      0.1,
+      0.01
+    ],
+    "optimizer": [
+      "adam",
+      "sgd"
+    ],
+    "momentum": [
+      0.5,
+      0.9
+    ]
+  },
+  "model": {
+    "name": "resnet50",
+    "num_classes": 3,
+    "pretrained": true
+  },
+  "data": {
+    "train_path": "data/train",
+    "val_path": "data/val",
+    "test_path": "data/test",
+    "batch_size": 8
+  },
+  "max_epochs": 2
+}
