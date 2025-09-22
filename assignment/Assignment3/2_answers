@@ -1,0 +1,40 @@
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+max_connections = 1000
+[database]
+url = "postgresql://localhost:5432/myapp"
+pool_size = 20
+timeout = 30
+[logging]
+level = "info"
+file = "/var/log/myapp.log"
+max_size = "100MB"
+rotate = true
+[[feature_flags]]
+name = "new_ui"
+enabled = true
+rollout_percentage = 25
+[[feature_flags]]
+name = "analytics"
+enabled = false
+rollout_percentage = 0
+[cache]
+redis_url = "redis://localhost:6379/0"
+ttl = 3600
+
+a. How many feature flags are currently defined, and which ones are active?
+ans : There are two feature flags defined: "new_ui" and "analytics". The "new_ui" feature flag is active.
+
+b. What happens when the log file reaches 100MB?
+ans : When the log file reaches 100MB, it will be rotated, meaning a new log file will be created and the old one will be archived.
+
+c. If you wanted to make the server accessible only from localhost, what should you change?
+ans : To make the server accessible only from localhost, we should change the host value in the server from '0.0.0.0' to "127.0.0.1" or "localhost".
+
+d. Calculate the total number of seconds that cached items will remain valid.
+ans : Cached items will remain valid for 3600 seconds.
+
+e. Explain the difference between the [feature_flags] and [[feature_flags]] syntax.
+ans : The [feature_flags] syntax is used to define a single table, while the [[feature_flags]] syntax is used to define an array of tables, allowing for multiple entries with the same structure.

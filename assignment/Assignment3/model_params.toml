@@ -1,0 +1,29 @@
+# model_params.toml
+[defaults]
+epochs = 2
+criterion = "cross_entropy"
+weight_decay = 1e-4
+
+[resnet34]
+learning_rate = 0.01
+optimizer = "sgd"
+momentum = 0.9
+batch_size = 32
+
+[resnet50]
+learning_rate = 0.001
+optimizer = "adam"
+momentum = 0.0
+batch_size = 32
+
+[resnet101]
+learning_rate = 0.0005
+optimizer = "adam"
+momentum = 0.0
+batch_size = 16
+
+[resnet152]
+learning_rate = 0.0003
+optimizer = "adam"
+momentum = 0.0
+batch_size = 8

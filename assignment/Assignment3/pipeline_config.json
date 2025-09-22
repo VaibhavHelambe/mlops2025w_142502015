@@ -1,0 +1,20 @@
+{
+  "data": {
+    "type": "image_folder",
+    "train_path": "data/train",
+    "val_path": "data/val",
+    "test_path": "data/test",
+    "batch_size": 8,
+    "num_workers": 4
+  },
+  "model": {
+    "name": "resnet50",
+    "num_classes": 3,
+    "pretrained": true
+  },
+  "experiment": {
+    "run_name": "resnet50_experiment_001",
+    "seed": 42,
+    "device": "auto"
+  }
+}
