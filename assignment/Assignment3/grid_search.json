@@ -2,7 +2,6 @@
   "grid": {
     "learning_rate": [
       0.1,
-      0.01,
       0.01
     ],
     "optimizer": [
@@ -16,14 +15,14 @@
   },
   "model": {
     "name": "resnet50",
-    "num_classes": 10,
+    "num_classes": 3,
     "pretrained": true
   },
   "data": {
     "train_path": "data/train",
     "val_path": "data/val",
     "test_path": "data/test",
-    "batch_size": 32
+    "batch_size": 8
   },
-  "max_epochs": 3
+  "max_epochs": 2
 }

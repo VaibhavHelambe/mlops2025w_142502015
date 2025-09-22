@@ -4,22 +4,27 @@
   "predictions": [
     {
       "class_index": 111,
+      "class_name": "111",
       "probability": 0.07286624610424042
     },
     {
       "class_index": 916,
+      "class_name": "916",
       "probability": 0.05557340756058693
     },
     {
       "class_index": 549,
+      "class_name": "549",
       "probability": 0.045926328748464584
     },
     {
       "class_index": 530,
+      "class_name": "530",
       "probability": 0.02075648494064808
     },
     {
       "class_index": 610,
+      "class_name": "610",
       "probability": 0.020459964871406555
     }
   ]
