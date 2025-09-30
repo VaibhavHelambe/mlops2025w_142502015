@@ -4,7 +4,7 @@ import pandas as pd
 
 # ---------------- MongoDB Config ----------------
 MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "online_retail"
+DB_NAME = "onlineretail"
 COLLECTION_NAME = "customers"
 
 # ---------------- Connect MongoDB ----------------

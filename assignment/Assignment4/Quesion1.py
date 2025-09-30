@@ -7,9 +7,20 @@ def setup(conn):
     cur = conn.cursor()
     cur.executescript("""
     PRAGMA foreign_keys = ON;
-    CREATE TABLE IF NOT EXISTS customers (customer_id INTEGER PRIMARY KEY, country TEXT);
-    CREATE TABLE IF NOT EXISTS products (stock_code TEXT PRIMARY KEY, description TEXT);
-    CREATE TABLE IF NOT EXISTS invoices (invoice_no TEXT PRIMARY KEY, invoice_date TIMESTAMP, customer_id INTEGER);
+    
+    CREATE TABLE IF NOT EXISTS customers (
+        customer_id INTEGER PRIMARY KEY,
+        country TEXT);
+    
+    CREATE TABLE IF NOT EXISTS products (
+        stock_code TEXT PRIMARY KEY, 
+        description TEXT);
+    
+    CREATE TABLE IF NOT EXISTS invoices (
+        invoice_no TEXT PRIMARY KEY, 
+        invoice_date TIMESTAMP, 
+        customer_id INTEGER);
+
     CREATE TABLE IF NOT EXISTS invoice_lines (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         invoice_no TEXT,
@@ -23,14 +34,14 @@ def setup(conn):
     conn.commit()
 
 def load(xlsx_path, db_path=DB, batch_size=1000):
-    # read file (pandas will parse Excel dates to Timestamp)
+
     df = pd.read_excel(xlsx_path, engine="openpyxl", dtype={"InvoiceNo": str, "StockCode": str, "Description": str, "Country": str})
 
     # keep only rows with CustomerID (same behaviour as your original)
     df = df[df["CustomerID"].notna()].copy()
-    # normalize InvoiceDate (works for Timestamp or string)
+
     df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"], errors="coerce")
-    # drop rows where date couldn't be parsed
+
     df = df[df["InvoiceDate"].notna()]
 
     conn = sqlite3.connect(db_path, detect_types=sqlite3.PARSE_DECLTYPES)
