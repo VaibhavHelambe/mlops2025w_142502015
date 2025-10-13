@@ -38,7 +38,7 @@ LABEL_NAMES = {0: "O", 1: "PER", 2: "LOC", 3: "ORG", 4: "MISC"}
 
 
 # 🔐 Insert your Weights & Biases API Key here:
-WANDB_API_KEY = "ba9b16db63aa67b8522f25af675137195a24e053"
+WANDB_API_KEY = ""
 def wandb_login():
     """Login to W&B using provided API key."""
     if WANDB_API_KEY == "your_key_here":
