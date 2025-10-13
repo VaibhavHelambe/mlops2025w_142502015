@@ -1,0 +1,3 @@
+wandb: WARNING The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+
+Logged LF metrics to W&B. Run URL: https://wandb.ai/142502015-indian-institute-of-technology/Q1-weak-supervision-ner/runs/k7973hji

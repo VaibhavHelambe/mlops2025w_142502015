@@ -1,0 +1,17 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.10",
+  "startedAt": "2025-10-12T13:59:34.695226Z",
+  "program": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\assignment\\Assignment5\\Q1.py",
+  "codePath": "assignment\\Assignment5\\Q1.py",
+  "codePathLocal": "Q1.py",
+  "git": {
+    "remote": "https://github.com/VaibhavHelambe/mlops2025w_142502015.git",
+    "commit": "1c64534a960ec3601edfb51ad56c71e399907b1f"
+  },
+  "email": "142502015@smail.iitpkd.ac.in",
+  "root": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\assignment\\Assignment5",
+  "host": "VShadow",
+  "executable": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\class\\Ml_flow_undeerstand\\mlflow-envho\\Scripts\\python.exe",
+  "writerId": "8gd1x5l7pm923hqcz9c989yyqcamq922"
+}

@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.10",
+  "startedAt": "2025-10-12T14:16:51.881454Z",
+  "program": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\assignment\\Assignment5\\Q2.py",
+  "codePath": "assignment\\Assignment5\\Q2.py",
+  "codePathLocal": "Q2.py",
+  "git": {
+    "remote": "https://github.com/VaibhavHelambe/mlops2025w_142502015.git",
+    "commit": "1c64534a960ec3601edfb51ad56c71e399907b1f"
+  },
+  "email": "142502015@smail.iitpkd.ac.in",
+  "root": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\assignment\\Assignment5",
+  "host": "VShadow",
+  "executable": "D:\\IIT PALAKKAD\\MLOps\\GITHUB\\mlops2025w_142502015\\class\\Ml_flow_undeerstand\\mlflow-envho\\Scripts\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "760216547328",
+      "used": "119923593216"
+    }
+  },
+  "memory": {
+    "total": "16955269120"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650 Ti",
+      "memoryTotal": "4294967296",
+      "cudaCores": 1024,
+      "architecture": "Turing",
+      "uuid": "GPU-d97275c7-44d7-1a0e-5b64-37336695f9cc"
+    }
+  ],
+  "cudaVersion": "12.5",
+  "writerId": "7l1zcdgbxnbnjsp6gvwe6qc67hhbl48o"
+}

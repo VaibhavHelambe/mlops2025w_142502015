@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            7l1zcdgbxnbnjsp6gvwe6qc67hhbl48o:
+                codePath: assignment\Assignment5\Q2.py
+                codePathLocal: Q2.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "760216547328"
+                        used: "119923593216"
+                email: 142502015@smail.iitpkd.ac.in
+                executable: D:\IIT PALAKKAD\MLOps\GITHUB\mlops2025w_142502015\class\Ml_flow_undeerstand\mlflow-envho\Scripts\python.exe
+                git:
+                    commit: 1c64534a960ec3601edfb51ad56c71e399907b1f
+                    remote: https://github.com/VaibhavHelambe/mlops2025w_142502015.git
+                gpu: NVIDIA GeForce GTX 1650 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 1024
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650 Ti
+                      uuid: GPU-d97275c7-44d7-1a0e-5b64-37336695f9cc
+                host: VShadow
+                memory:
+                    total: "16955269120"
+                os: Windows-11-10.0.26100-SP0
+                program: D:\IIT PALAKKAD\MLOps\GITHUB\mlops2025w_142502015\assignment\Assignment5\Q2.py
+                python: CPython 3.12.10
+                root: D:\IIT PALAKKAD\MLOps\GITHUB\mlops2025w_142502015\assignment\Assignment5
+                startedAt: "2025-10-12T14:16:51.881454Z"
+                writerId: 7l1zcdgbxnbnjsp6gvwe6qc67hhbl48o
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 49
+                - 51
+                - 53
+            "3":
+                - 2
+                - 16
+                - 62
+            "4": 3.12.10
+            "5": 0.22.2
+            "8":
+                - 3
+            "10":
+                - 20
+                - 21
+            "12": 0.22.2
+            "13": windows-amd64
+note:
+    value: LF coverage and accuracy for Q2

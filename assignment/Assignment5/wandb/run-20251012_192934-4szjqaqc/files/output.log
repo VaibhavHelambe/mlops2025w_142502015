@@ -1,0 +1,18 @@
+
+✅ Logged dataset stats to W&B successfully!
+dataset: eriktks/conll2003
+total_samples: 20744
+total_tokens: 301418
+train_samples: 14041
+validation_samples: 3250
+test_samples: 3453
+entity_count_PER: 17050
+entity_frac_PER: 0.0565659648727017
+entity_count_LOC: 12316
+entity_frac_LOC: 0.04086020078429291
+entity_count_ORG: 14613
+entity_frac_ORG: 0.04848084719558885
+entity_count_MISC: 6779
+entity_frac_MISC: 0.022490362221234298
+entity_count_O: 250660
+entity_frac_O: 0.8316026249261822

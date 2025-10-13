@@ -1,0 +1,10 @@
+Saved and logged artifact: conll2003-dataset-stats
+
+Summary (sample):
+  total_samples: 20744
+  total_tokens: 301418
+  entity_count_PER: 17050
+  entity_count_LOC: 12316
+  entity_count_ORG: 14613
+  entity_count_MISC: 6779
+  entity_count_O: 250660
