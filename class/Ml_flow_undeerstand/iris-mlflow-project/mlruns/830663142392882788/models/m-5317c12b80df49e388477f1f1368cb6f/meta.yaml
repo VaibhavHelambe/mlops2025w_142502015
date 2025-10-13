@@ -1,0 +1,10 @@
+artifact_location: file:///D:/IIT%20PALAKKAD/MLOps/GITHUB/mlops2025w_142502015/class/Ml_flow_undeerstand/iris-mlflow-project/mlruns/830663142392882788/models/m-5317c12b80df49e388477f1f1368cb6f/artifacts
+creation_timestamp: 1759815488480
+experiment_id: '830663142392882788'
+last_updated_timestamp: 1759815492346
+model_id: m-5317c12b80df49e388477f1f1368cb6f
+model_type: null
+name: model
+source_run_id: 36dadf7dbc3f4659b6aa4daf9436dfc1
+status: 2
+status_message: null

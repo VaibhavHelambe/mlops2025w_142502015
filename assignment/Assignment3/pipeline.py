@@ -165,3 +165,6 @@ if __name__ == "__main__":
     parser.add_argument("--out", "-o", default=None, help="output result JSON path (optional)")
     args = parser.parse_args()
     run_pipeline(json_path=args.config, toml_path=args.params, out_path=args.out)
+
+
+# python pipeline.py --config my_cfg.json --params my_params.toml --out results/my_run.json

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/IIT%20PALAKKAD/MLOps/GITHUB/mlops2025w_142502015/class/Ml_flow_undeerstand/iris-mlflow-project/mlruns/830663142392882788/0d4fd6cfc87649d59de957a9dac43b9c/artifacts
+end_time: 1759815522363
+entry_point_name: ''
+experiment_id: '830663142392882788'
+lifecycle_stage: active
+run_id: 0d4fd6cfc87649d59de957a9dac43b9c
+run_name: RF_100_None
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759815517847
+status: 3
+tags: []
+user_id: helam

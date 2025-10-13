@@ -1,0 +1,10 @@
+artifact_location: file:///D:/IIT%20PALAKKAD/MLOps/GITHUB/mlops2025w_142502015/class/Ml_flow_undeerstand/iris-mlflow-project/mlruns/830663142392882788/models/m-4bf859339a6645fba952d65e5c99c523/artifacts
+creation_timestamp: 1759815479839
+experiment_id: '830663142392882788'
+last_updated_timestamp: 1759815483979
+model_id: m-4bf859339a6645fba952d65e5c99c523
+model_type: null
+name: best_model
+source_run_id: 72a93059047048f0bfda89dac55f7022
+status: 2
+status_message: null

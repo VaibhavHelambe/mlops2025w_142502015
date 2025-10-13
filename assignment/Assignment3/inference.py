@@ -95,3 +95,5 @@ if __name__ == "__main__":
         json.dump(result, f, indent=2)
 
     print(f"Results saved to {out_file}")
+
+    # python inference.py resnet50 data/test/cat/cat_0.png

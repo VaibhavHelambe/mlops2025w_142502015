@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.12" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/class/Ml_flow_undeerstand/mlflow-envho" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.12 virtualenv at D:\IIT PALAKKAD\MLOps\GITHUB\mlops2025w_142502015\class\Ml_flow_undeerstand\mlflow-envho" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

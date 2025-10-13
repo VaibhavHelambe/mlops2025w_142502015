@@ -1,0 +1,22 @@
+artifact_path: file:///D:/IIT%20PALAKKAD/MLOps/GITHUB/mlops2025w_142502015/class/Ml_flow_undeerstand/iris-mlflow-project/mlruns/830663142392882788/models/m-0e1977c9138a408dac93a0881f877e49/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-0e1977c9138a408dac93a0881f877e49
+model_size_bytes: 174013
+model_uuid: m-0e1977c9138a408dac93a0881f877e49
+prompts: null
+run_id: 0d4fd6cfc87649d59de957a9dac43b9c
+utc_time_created: '2025-10-07 05:38:38.110209'
